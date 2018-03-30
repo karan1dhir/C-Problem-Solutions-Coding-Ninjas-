@@ -39,8 +39,8 @@ void printTree(TreeNode<int> *root)
 }
 int getHeight(TreeNode<int> *root){
 
-if(root=NULL)
-    return NULL;
+if(root==NULL)
+    return 0;
 
 int ans=0;
 
